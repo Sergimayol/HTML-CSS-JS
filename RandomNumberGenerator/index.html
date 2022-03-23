@@ -12,12 +12,22 @@
 <body>
     <div class="frame">
         <div class="pantalla">
-            <p>Texto prueba</p>
+            <div class="resultado">
+                <span id="result">0</span>
+            </div>
+            <div class="inputs">
+                <div class="min-num">
+                    <p class="text">Min.</p>
+                    <input type="text" class="inp" id="min" placeholder="1">
+                </div>
+                <div class="max-num">
+                    <p class="text">Max.</p>
+                    <input type="text" class="inp" id="max" placeholder="12">
+                </div>
+            </div>
         </div>
-        <div class="inputs">
-            <input type="text" class="inp" placeholder="Minimum number">
-            <input type="text" class="inp" placeholder="Maximum number">
-            <button type="submit" class="button-submit">Generate</button>
+        <div class="generate">
+            <button type="submit" class="button-submit" onclick="generateRandomNumber();">Generate</button>
         </div>
     </div>
 </body>
