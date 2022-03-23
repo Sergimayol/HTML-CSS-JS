@@ -4,7 +4,6 @@ const buttons = document.querySelectorAll("#buttons a");
 for (const button of buttons) {
     button.addEventListener('click', function(e) {
         e.preventDefault();
- 
         if (e.target.dataset.key == 'equal') {
             screen.textContent = eval(screen.textContent);
             if (screen.textContent.length > 8) {
