@@ -33,9 +33,23 @@ body {
     width: 400px;
 }
 
+.result {
+    margin: 13px;
+}
+
 .inputs {
     display: flex;
     flex-direction: column;
+    margin-right: 13px;
+}
+
+.inp {
+    background: #121212;
+    border: 0;
+    text-align: right;
+    font-size: 1.2em;
+    outline: none;
+    color: white;
 }
 
 .generate {
