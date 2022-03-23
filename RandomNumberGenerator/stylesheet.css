@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121212;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
