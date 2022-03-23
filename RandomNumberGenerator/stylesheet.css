@@ -10,37 +10,22 @@ body {
     font-family: "Work Sans", sans-serif;
     color: white;
     justify-content: center;
-    display: grid;
+    display: flex;
     place-items: center;
     height: 100vh;
 }
 
 .frame {
     border: 1px solid white;
-    width: 100px;
-    height: 100px;
-}
-
-.min {
-    border: 1px solid white;
-    width: 10px;
-    height: 10px;
-}
-
-.max {
-    border: 1px solid white;
-    width: 10px;
-    height: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
 }
 
 .pantalla {
     border: 1px solid white;
-    width: 10px;
-    height: 10px;
 }
 
-.generate {
-    border: 1px solid white;
-    width: 10px;
-    height: 10px;
+.inputs {
+
 }
