@@ -14,3 +14,33 @@ body {
     place-items: center;
     height: 100vh;
 }
+
+.frame {
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+}
+
+.min {
+    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+}
+
+.max {
+    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+}
+
+.pantalla {
+    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+}
+
+.generate {
+    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+}
